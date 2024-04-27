@@ -127,7 +127,7 @@ class AddStuWidget(QtWidgets.QWidget):
             self.query_btn.setEnabled(False)
         else:
             self.query_btn.setEnabled(True)
-    
+    # widget enable setting
     def setWidgetEnable(self, name_editor_enable=True, subject_and_score_editor_enable=True, add_btn_enable=True, query_btn_enable=True):
         self.name_editor_label.setEnabled(name_editor_enable)
         self.subject_editor_label.setEnabled(subject_and_score_editor_enable)
